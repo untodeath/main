@@ -1,4 +1,7 @@
-<h1>WIP</h1>
+<div>
+	<h1>&#128327;</h1>
+	<p>WIP</p>
+</div>
 
 <style>
 	@import url('https://rsms.me/inter/inter.css');
@@ -16,16 +19,21 @@
 		padding: 0;
 	}
 
-	h1 {
+	div {
 		align-items: center;
 		display: flex;
+		flex-direction: column;
 		font-family: 'Inter', sans-serif;
-		font-size: 10rem;
-		font-weight: 900;
+		gap: 1rem;
 		height: 100vh;
 		justify-content: center;
-		line-height: 1;
 		text-align: center;
+	}
+
+	h1 {
+		font-size: 10rem;
+		font-weight: 100;
+		line-height: 1;
 	}
 
 	@supports (font-variation-settings: normal) {
