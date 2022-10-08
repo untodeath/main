@@ -1,6 +1,6 @@
 <div>
 	<h1>&#128327;</h1>
-	<p>WIP</p>
+	<p>Work in progress</p>
 </div>
 
 <style>
